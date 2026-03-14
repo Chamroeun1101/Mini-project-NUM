@@ -1,18 +1,18 @@
-# Root Finding Toolbox 🔍
+# Root Finding Toolbox
 
 A Python implementation of classical numerical root-finding methods, solving equations of the form **f(x) = 0**.  
 All algorithms are implemented manually using only standard Python and the `cmath` library.
 
 ---
 
-## 📋 Project Description
+## Project Description
 
 This project provides a clean, object-oriented toolbox for numerical root finding through a single class `RootFindingProblem`.  
 It supports both real and complex roots, handles edge cases with meaningful error messages, and exposes all methods through one unified interface: `solve()`.
 
 ---
 
-## 📌 List of Implemented Methods
+## List of Implemented Methods
 
 | # | Method | Callable Name |
 |---|--------|---------------|
@@ -27,7 +27,7 @@ It supports both real and complex roots, handles edge cases with meaningful erro
 
 ---
 
-## 🧮 Algorithms and How They Work
+## Algorithms and How They Work
 
 ### 1. Bisection Method
 Given an interval `[a, b]` where `f(a)` and `f(b)` have opposite signs, the method repeatedly halves the interval and keeps the half where the sign change occurs. Converges slowly but is guaranteed to find a root.
@@ -71,7 +71,7 @@ Fits a parabola through three points `(x0, f(x0))`, `(x1, f(x1))`, `(x2, f(x2))`
 
 ---
 
-## 📁 File Structure
+## File Structure
 
 ```
 root-finding-project/
@@ -83,7 +83,7 @@ root-finding-project/
 
 ---
 
-## ▶️ How to Run the Examples
+## How to Run the Examples
 
 Make sure you have **Python 3** installed. No external libraries are required.
 
@@ -102,7 +102,7 @@ You should see the root found by each method printed in the terminal along with 
 
 ---
 
-## 💡 Short Code Example Using `solve()`
+## Short Code Example Using `solve()`
 
 ```python
 from root_finding import RootFindingProblem
@@ -133,10 +133,3 @@ p3 = RootFindingProblem(f=lambda x: x**2 + 1)
 print(p3.solve("muller", x0=0, x1=1, x2=2))  # → complex number
 ```
 
----
-
-## 👥 Authors
-
-- Group Member 1
-- Group Member 2
-- Group Member 3
