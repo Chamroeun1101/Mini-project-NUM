@@ -71,18 +71,6 @@ Fits a parabola through three points `(x0, f(x0))`, `(x1, f(x1))`, `(x2, f(x2))`
 
 ---
 
-## File Structure
-
-```
-root-finding-project/
-│
-├── root_finding.py   # RootFindingProblem class with all algorithms
-├── examples.py       # Demonstrations of all methods
-└── README.md         # Project documentation
-```
-
----
-
 ## How to Run the Examples
 
 Make sure you have **Python 3** installed. No external libraries are required.
